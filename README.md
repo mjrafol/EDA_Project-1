@@ -17,6 +17,19 @@ Finally, we created a powerpoint slide to summerize our findings and insights.
 - Alexis Hernandez
 - Yuanfeng Xu
 - Mary Jane Rafol
+ # Objective
+Analyze the fraud data set to determine correlation between fraud incidence, spending size, age group, demographics and time of transaction so awareness campaigns can be directed to these groups. Perform other relevant analysis from the data set.
+
+Statement: There is no correlation between the spending size, age group, demographics and time of transaction vs. fraud incidence.
+
+# Hypothesis
+Ha = There is strong positive correlation between the spending size, age group, demographics and time of transaction and fraud incidence.
+Hb = There is strong negative correlation between the spending spending size, age group, demographics and time of transaction and fraud incidence.
+Ho = There is no correlation between the spending size, age group, demographics and time of transaction and fraud incidence.
+# Methodology
+We identified Kaggle’s Simulated Credit Card Fraud Dataset, used the pandas Application of Pandas’ cut / bin and groupby functions on Dataset, and requested Census API to do bar chart, scatter plot and and linear regression.
+![image](https://user-images.githubusercontent.com/100816322/166394875-93fce907-2da4-40b7-ad6f-9914b55fe3c2.png)
+
 # References
 https://www.kaggle.com/datasets/kartik2112/fraud-detection
 
