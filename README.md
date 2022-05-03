@@ -17,3 +17,13 @@ Finally, we created a powerpoint slide to summerize our findings and insights.
 - Alexis Hernandez
 - Yuanfeng Xu
 - Mary Jane Rafol
+# References
+https://www.kaggle.com/datasets/kartik2112/fraud-detection
+
+https://www.fool.com/the-ascent/research/identity-theft-credit-card-fraud-statistics/
+
+https://www.cardrates.com/advice/credit-card-fraud-statistics/
+
+https://www.experian.com/blogs/ask-experian/dont-let-id-thieves-ruin-your-birthday-or-any-other-day/
+
+https://en.wikipedia.org/wiki/Statistical_correlations_of_criminal_behaviour
