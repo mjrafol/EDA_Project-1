@@ -28,7 +28,10 @@ Hb = There is strong negative correlation between the spending spending size, ag
 Ho = There is no correlation between the spending size, age group, demographics and time of transaction and fraud incidence.
 # Methodology
 We identified Kaggle’s Simulated Credit Card Fraud Dataset, used the pandas Application of Pandas’ cut / bin and groupby functions on Dataset, and requested Census API to do bar chart, scatter plot and and linear regression.
-![image](https://user-images.githubusercontent.com/100816322/166394875-93fce907-2da4-40b7-ad6f-9914b55fe3c2.png)
+![image](https://user-images.githubusercontent.com/100816322/166395383-5d119dac-8b42-4f4c-a4b1-5b59fbd53efe.png)
+Results #1:  Spending Size!
+[image](https://user-images.githubusercontent.com/100816322/166395435-d3060412-a7fd-474e-9ccd-3535ec71dc98.png)
+
 
 # References
 https://www.kaggle.com/datasets/kartik2112/fraud-detection
