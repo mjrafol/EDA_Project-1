@@ -24,7 +24,9 @@ Statement: There is no correlation between the spending size, age group, demogra
 
 # Hypothesis
 Ha = There is strong positive correlation between the spending size, age group, demographics and time of transaction and fraud incidence.
+
 Hb = There is strong negative correlation between the spending spending size, age group, demographics and time of transaction and fraud incidence.
+
 Ho = There is no correlation between the spending size, age group, demographics and time of transaction and fraud incidence.
 # Methodology
 We identified Kaggle’s Simulated Credit Card Fraud Dataset, used the pandas Application of Pandas’ cut / bin and groupby functions on Dataset, and requested Census API to do bar chart, scatter plot and and linear regression.
@@ -44,7 +46,9 @@ This result also supports the premise that older people have wealthier financial
 ![image](https://user-images.githubusercontent.com/100816322/166395787-05b07399-489e-4b65-995a-2f691ad51dc2.png)
 
 2.Based on the previous statistics data for 2020:"Population sizes play a large role in which states have the most identity theft credit card fraud." https://www.fool.com/the-ascent/research/identity-theft-credit-card-fraud-statistics/. California has the highest number of identity theft incidences (of which credit card fraud is the most typical), and Georgia has the most cases per capita, according to a 2019 Federal Trade Commission report.
+
 Hypothesis 1. Big cities that have larger population size tend to have higher fraud incidences.
+
 Based on the analysis of our dataset,the r value is 0.06900267483096204 and the r-squared is :0.00476136913382749. The correlation between city population size and credit card fraud incidents is weak. The hypothesis1 is rejected.
 ![image](https://user-images.githubusercontent.com/100816322/166395971-b21a13b5-5e89-44d1-bd76-55c59198cd44.png)
 
@@ -53,6 +57,7 @@ Get the data about population data and other economic data for all states in 202
 ![image](https://user-images.githubusercontent.com/100816322/166396047-0a2f0515-93fc-44d5-b08c-8864c0064699.png)
 
 4.Hypothesis 2. States that have larger population size tend to have higher credit card fraud incident rate.
+
 The r value 0.59 indicates that state population size  is positively correlated with the rate of fraud incidences.
 The r-squared shows that the rate of fraud incidence can be explained 35% of the variance by the state population in the regression model.
 The Hypothesis 2 is accepted.
@@ -61,29 +66,42 @@ The Hypothesis 2 is accepted.
 5.Hypothesis 3. Socioeconomic status (measured by poverty rate, unemployment rate, household income, per capita income) is correlated with credit card fraud incident rate. (Base on previous research about the correlation between socioeconomic status and criminal behavious, we put forward this hypothesis.)
 
 Hypothesis 3a Poverty rate is positively correlated with credit card fraud incidents rate.
+
 Hypothesis 3b Unemployment rate is positively correlated with credit card fraud incidents rate.
+
 Hypothesis 3c Household income is negatively correlated with credit card fraud incidents rate.
+
 Hypothesis 3d Per capita income is negatively correlated with credit card fraud incidents rate.
 
 Base on our regression models, the correlation between socioeconomic status and credit card fraud rate is weak. The r-squared shows that the regression model  can not explain the relationship. The Hypothesis 3  is rejected.
 ![image](https://user-images.githubusercontent.com/100816322/166396304-d9ce3db3-24d9-4224-9786-0e282038b336.png)
+
 The correlation coefficient between poverty rate and fraud incidents is (0.15441884405064088, 0.31114870168065645)
 The r-squared is :0.023845179397936147
+
 ![image](https://user-images.githubusercontent.com/100816322/166396364-60f0a339-f594-49e7-85e3-cfe941da4eab.png)
+
 The correlation coefficient between unemployment rate and fraud is (0.06465200169484829, 0.6730714556206687)
 The r-squared is :0.004179881323150668
+
 ![image](https://user-images.githubusercontent.com/100816322/166396395-537a6842-cf1f-4449-9dfe-27716b04fa33.png)
+
 The correlation coefficient between Household Income and fraud incidences is (-0.11243119350502423, 0.46214218157102943)
 The r-squared is :0.012640773272964206
+
 ![image](https://user-images.githubusercontent.com/100816322/166396504-7c626c30-f9a7-440d-8eb9-bcfcaf0d61be.png)
+
 The correlation coefficient between Per Capita Income and fraud is (-0.07854832687251433, 0.608032298861484)
 The r-squared is :0.006169839654471365
 
 # Results #4: Time Frame
 Hypothesis 4. Night-time and early morning have more credit card incidence rate. (Base on the previous statistics data, the identity theft usually happened in the early morning. Therefore, we put forward this hypothesis.)
+
 Based on the analysis, the top three time that has high-frequency of fraudulent transactions: 22 o’clock,, 23 o’clock and 3 o’clock.
+
 Night-time and early morning time tend to have higher credit card fraud incidents rate.
 Hypothesis 4 is accepted.
+
 ![image](https://user-images.githubusercontent.com/100816322/166397102-b34dfeae-51fc-4a5c-953a-171753f710be.png)
 ![image](https://user-images.githubusercontent.com/100816322/166397110-2cc74ebb-24ee-4a5c-ad87-7ccfee7d0957.png)
 
@@ -121,6 +139,7 @@ The dataset is limited to 45 states and 52 cities
 
 1. Future analysis can explore the relationship between credit card fraud incidence and Gender
 Job type and Merchant categories.
+
 2.Develop a code that flags suspicious incidences once transaction meets the following requirements: age of the victim, location of the transaction, amount, card holder's home address, merchant category, etc.
 
 # References
