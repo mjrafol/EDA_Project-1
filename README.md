@@ -20,8 +20,6 @@ Finally, we created a powerpoint slide to summerize our findings and insights.
  # Objective
 Analyze the fraud data set to determine correlation between fraud incidence, spending size, age group, demographics and time of transaction so awareness campaigns can be directed to these groups. Perform other relevant analysis from the data set.
 
-Statement: There is no correlation between the spending size, age group, demographics and time of transaction vs. fraud incidence.
-
 # Hypothesis
 ## Ha = There is strong positive correlation between the spending size, age group, demographics and time of transaction and fraud incidence.
 
