@@ -1,4 +1,4 @@
-# Is There a Correlation Between the Incidents of Fraud vs. The Spending Size, Population Size, Age Group and Demographics?
+# Is There a Correlation Between the Incidents of Fraud vs. The Spending Size, Population Size, Age Group and Other Demographics?
 
 # Project Overview 
 Credit card fraud transactions are a fear that many americans have as they happen so frequently! They cost financial companies and conusmers themselves millions of dollars every year. Is there a better, more efficent way to detect whether a transaction is fraudulent or not in real time. If so, which parameter is it? 
